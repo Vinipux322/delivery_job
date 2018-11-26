@@ -1,3 +1,2 @@
 # delivery_job
-Delivery Job MTA
-My First Mta Script <3
+Delivery Job MTA | My First Mta Script <3
