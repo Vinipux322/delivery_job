@@ -56,7 +56,7 @@ local function stockMarkerHit(player)
     if getElementData(player,"delivery_job") == true then -- Доступ только для избранных (Проверяем тип на всякий случай)
       outputChatBox ("Вы получили посылку.", player, 0, 255, 0, true )
       local markersIds = {} -- Массив с маркерами(чтобы не повторялись), на тот момент лучше идеи мне в голову не приходило
-      for i=1,3 do
+      for i=1,3 do -- 3 маркера
         local random = math.random(1,#deliveryMarkers) -- Обьявляем переменную, мб с первого раза повезет
         repeat
           random = math.random(1,#deliveryMarkers) -- Перебираем
